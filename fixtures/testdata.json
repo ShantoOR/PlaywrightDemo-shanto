@@ -1,6 +1,7 @@
 {
     "validuser": {
         "baseurl": "http://192.168.1.125:31710/login",
+        "homeurl": "http://192.168.1.125:31710",
         "email": "tester1@gmail.com",
         "password": "12345"
     }

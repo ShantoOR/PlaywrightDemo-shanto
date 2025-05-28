@@ -6,8 +6,5 @@ test('has title', async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.navigate();
   await loginPage.login(testdata.validuser.email, testdata.validuser.password);
-  await page.pause();
+  
 });
-
-
-
