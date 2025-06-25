@@ -1,10 +1,21 @@
 {
-    "validuser": {
-        "baseurl": "http://192.168.1.125:31710/login",
-        "homeurl": "http://192.168.1.125:31710",
-        "email": "tester1@gmail.com",
-        "password": "12345"
-    }
+  
+    
+  "validuser": {
+    "baseurl": "http://localhost:7892/registration",
+    "name": "shants4owl1",
+    "email": "swhantosj3hasniual@gmail.com",
+    "password": "1234",
+    "phone": "88001733550047",
+    "companyName": "penta703",
+    "addressLine1": "anna, 23,42c,kal012",
+    "addressLine2": "poc, fa,tt",
+    "zipCode": "11215",
+    "mobile": "18389029"
+  }
+
+
+
 
 
 }
