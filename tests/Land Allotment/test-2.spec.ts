@@ -1,0 +1,46 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('http://localhost:7892/');
+  await page.getByRole('link', { name: 'LOG IN' }).click();
+  await page.getByRole('textbox', { name: 'Email' }).click();
+  await page.getByRole('textbox', { name: 'Email' }).fill('test_lms_mis_1@beza.com');
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('12345');
+  await page.getByRole('button', { name: 'Log In' }).click();
+  await page.locator('#card-layout').getByText('Allotted Land Information').click();
+  await page.getByRole('button', { name: 'create new application Create' }).click();
+  await page.getByText('Mongla EZRemove item').click();
+  await page.getByText('Bangladesh Special Economic').click();
+  await page.getByRole('textbox', { name: 'Parent Company *' }).click();
+  await page.getByRole('textbox', { name: 'Parent Company *' }).fill('la');
+  await page.getByRole('textbox', { name: 'Name (Focal point 1) *' }).click();
+  await page.getByRole('textbox', { name: 'Name (Focal point 1) *' }).fill('dau');
+  await page.getByRole('textbox', { name: 'Designation (Focal point 1) *' }).click();
+  await page.getByRole('textbox', { name: 'Designation (Focal point 1) *' }).fill('sed');
+  await page.locator('xpath=/html/body/div[1]/div/main/div/div[6]/div[2]/div[2]/div[1]/div[3]/div[2]/div/div[1]/div[7]/div[1]/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/div/input[2]').click();
+
+  await page.locator('div:nth-child(24) > .flatpickr-innerContainer > .flatpickr-rContainer > .flatpickr-days > .dayContainer > span').first().click();
+  await page.getByRole('textbox', { name: 'Parent Company Address *' }).click();
+  await page.getByRole('textbox', { name: 'Parent Company Address *' }).fill('1,da,er,kk9');
+  await page.getByRole('textbox', { name: 'Mobile no. (Focal point 1) *' }).click();
+  await page.getByRole('textbox', { name: 'Mobile no. (Focal point 1) *' }).fill('019282822');
+  await page.getByRole('textbox', { name: 'Email (Focal point 1) *' }).click();
+  await page.getByRole('textbox', { name: 'Email (Focal point 1) *' }).fill('gfg@gmail.com');
+  await page.getByText('Lease Type AnnualUpfront').click();
+  await page.getByRole('option', { name: 'Upfront' }).click();
+  await page.getByRole('textbox', { name: 'Proposed Investment Amount (In Million USD) , numeric only, *' }).click();
+  await page.getByRole('textbox', { name: 'Proposed Investment Amount (In Million USD) , numeric only, *' }).fill('32');
+  await page.getByText('Investment Type:').click();
+  await page.getByRole('option', { name: 'Foreign' }).click();
+  await page.getByRole('combobox').filter({ hasText: 'No choices to choose from' }).locator('div').first().click();
+  await page.getByText('Test: Nuclear Weapons, Robots').click();
+  await page.getByRole('textbox', { name: 'Plot Size (In Acre) , numeric only, *', exact: true }).click();
+  await page.getByRole('textbox', { name: 'Plot Size (In Acre) , numeric only, *', exact: true }).fill('32');
+  await page.locator('#eqim3cf > .field-wrapper > .field-content > .choices > div').first().click();
+  await page.getByRole('option', { name: 'Undeveloped' }).click();
+  await page.getByRole('textbox', { name: 'Proposed Plot Size (In Acre' }).click();
+  await page.getByRole('textbox', { name: 'Proposed Plot Size (In Acre' }).fill('30');
+  await page.getByRole('checkbox', { name: 'I accept and agree to the' }).check();
+  await page.getByRole('button', { name: 'Submit' }).click();
+});

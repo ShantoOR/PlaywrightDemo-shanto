@@ -1,21 +1,32 @@
 {
-  
-    
   "validuser": {
     "baseurl": "http://localhost:7892/registration",
-    "name": "shants4owl1",
-    "email": "swhantosj3hasniual@gmail.com",
-    "password": "1234",
-    "phone": "88001733550047",
-    "companyName": "penta703",
+    "name": "shaants4owl2",
+    "typeDropdown": "Local Investor",
+    "zoneDropdown": "Government Owned Economic Zone",
+    "zoneNameDropdown": "Bangladesh Special Economic",
+    "landLeaseAgreement": true,
+    "nationality": "Bangladeshi",
+    "idType": "National ID",
+    "nationalId": "12345267j",
+    "birthYear": "1999",
+    "birthDateLabel": "June 2,",
+    "designation": "cse-eng",
+    "country": "Bangladesh",
+    "division": "Rajshahi",
+    "district": "Natore",
     "addressLine1": "anna, 23,42c,kal012",
     "addressLine2": "poc, fa,tt",
     "zipCode": "11215",
-    "mobile": "18389029"
+    "mobileCountryCode": "880",
+    "mobile": "18389029",
+    "companyType": "Existing company",
+    "companyName": "penta42013abc",
+    "companyCountry": "Bangladesh",
+    "companyDivision": "Chattagram",
+    "companyDistrict": "Feni",
+    "companyThana": "Chhagalnaiya",
+    "email": "swjantosj9hasniual@gmail.com",
+    "password": "1234"
   }
-
-
-
-
-
 }
