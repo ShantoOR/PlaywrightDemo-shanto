@@ -1,0 +1,30 @@
+{
+  "validAllot": {
+    "baseurl": "http://localhost:7892/",
+    "loginEmail": "test_lms_mis_1@beza.com",
+    "loginPassword": "12345",
+    "zoneMenu": "Allotted Land Information",
+    "ezDropdown": "Mongla EZRemove item",
+    "zoneNameDropdown": "Bangladesh Special Economic",
+    "parentCompany": "Sys Soln",
+    "focalName": "dos1",
+    "focalDesignation": "sed-dos",
+    "parentCompanyAddress": "1,da,road-9,kk9,New orland",
+    "mobileFocal": "019282822",
+    "emailFocal": "gfg@gmail.com",
+    "leaseType": "Upfront",
+    "investmentAmount": "32",
+    "investmentType": "Foreign",
+    "projectName": "Test: Nuclear Weapons, Robots",
+    "plotSize": "32",
+    "plotType": "Undeveloped",
+    "proposedPlotSize": "30"
+  }
+}
+
+
+
+
+
+
+
